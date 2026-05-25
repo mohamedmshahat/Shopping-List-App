@@ -15,7 +15,7 @@ class GroceryList extends StatefulWidget {
 
 class _GroceryListState extends State<GroceryList> {
   List<GroceryItem> _groceryItem = [];
-  var _isLoading = false;
+  var _isLoading = true;
 
   @override
   void initState() {
@@ -85,7 +85,7 @@ class _GroceryListState extends State<GroceryList> {
     setState(() {
       _groceryItem.add(newItem);
     });
-    //_loadItems();
+   
   }
 
   void _removeItem(GroceryItem item) async {

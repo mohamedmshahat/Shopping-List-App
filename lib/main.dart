@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Groceries',
       theme: ThemeData.dark().copyWith(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(
+        colorScheme: ColorScheme.fromSeed( 
           seedColor: const Color.fromARGB(255, 147, 229, 250),
           brightness: Brightness.dark,
           surface: const Color.fromARGB(255, 42, 51, 59),
